@@ -4,6 +4,14 @@
  Author:	alex
 */
 
+#include <MPU9250.h>
+#include <I2Cdev.h>
+#include <BMP180.h>
+#include <Adafruit_NeoPixel.h>
+#include <gamma.h>
+#include <Adafruit_NeoMatrix.h>
+#include <gfxfont.h>
+#include <Adafruit_GFX.h>
 const short led = 10;
 const short button = 8;
 #define delay 100
