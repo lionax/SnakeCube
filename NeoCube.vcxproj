@@ -12,8 +12,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
-    <RootNamespace>xyznake</RootNamespace>
-    <ProjectName>xyznake</ProjectName>
+    <RootNamespace>NeoCube</RootNamespace>
+    <ProjectName>NeoCube</ProjectName>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -48,10 +48,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Users\Johannes\Documents\Studium5\C Embedded\Übungen\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Users\Johannes\Documents\Studium5\C Embedded\SnakeCube;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\Johannes\Documents\Studium5\C Embedded\SnakeCube\__vm\.SnakeCube.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Users\alex\Documents\Arduino\libraries\Adafruit_GFX_Library;C:\Users\alex\Documents\Arduino\libraries\Adafruit_GFX_Library\utility;C:\Users\alex\Documents\Arduino\libraries\Adafruit_NeoMatrix;C:\Users\alex\Documents\Arduino\libraries\Adafruit_NeoMatrix\utility;C:\Users\alex\Documents\Arduino\libraries\Adafruit_NeoPixel;C:\Users\alex\Documents\Arduino\libraries\Adafruit_NeoPixel\utility;c:\Program Files (x86)\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Users\alex\Documents\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;c:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Users\alex\SourceCode\snake-cube;c:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;c:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;c:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\alex\SourceCode\snake-cube\__vm\.snake-cube.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=106013;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,8 +64,8 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>c:\Program Files (x86)\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Users\alex\Documents\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;c:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Users\alex\SourceCode\snake-cube\xyznake;c:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;c:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;c:\Program Files (x86)\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\dozu0wpw.15y\Micro Platforms\default\debuggers;C:\Users\alex\Documents\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;c:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;c:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\alex\SourceCode\snake-cube\xyznake\__vm\.xyznake.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>c:\Program Files (x86)\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Users\alex\Documents\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;c:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Users\alex\SourceCode\snake-cube\NeoCube;c:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;c:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;c:\Program Files (x86)\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\dozu0wpw.15y\Micro Platforms\default\debuggers;C:\Users\alex\Documents\Arduino\libraries;c:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;c:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;c:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\alex\SourceCode\snake-cube\NeoCube\__vm\.NeoCube.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -82,13 +82,14 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="xyznake.ino">
+    <None Include="NeoCube.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="__vm\.snake-cube.vsarduino.h" />
     <ClInclude Include="__vm\.SnakeCube.vsarduino.h" />
-    <ClInclude Include="__vm\.xyznake.vsarduino.h" />
+    <ClInclude Include="__vm\.NeoCube.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
