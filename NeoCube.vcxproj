@@ -85,11 +85,17 @@
     <ClInclude Include="libraries\CubeModel\Cell.h" />
     <ClInclude Include="libraries\CubeModel\Cube.h" />
     <ClInclude Include="libraries\CubeModel\Vector.h" />
+    <ClInclude Include="libraries\Sensors\Accelero.h" />
+    <ClInclude Include="libraries\Sensors\Compass.h" />
+    <ClInclude Include="libraries\Sensors\Gyro.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="libraries\CubeModel\Cell.cpp" />
     <ClCompile Include="libraries\CubeModel\Cube.cpp" />
     <ClCompile Include="libraries\CubeModel\Vector.cpp" />
+    <ClCompile Include="libraries\Sensors\Accelero.cpp" />
+    <ClCompile Include="libraries\Sensors\Compass.cpp" />
+    <ClCompile Include="libraries\Sensors\Gyro.cpp" />
   </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
