@@ -11,9 +11,9 @@
 */
 
 #include <Wire.h>
-#include "Compass.h"
-#include "Gyro.h"
-#include "Accelero.h"
+#include "libraries/Sensors/Compass.h"
+#include "libraries/Sensors/Gyro.h"
+#include "libraries/Sensors/Accelero.h"
 #include <TimerOne.h>
 #include <MPU9250.h>
 #include <I2Cdev.h>
