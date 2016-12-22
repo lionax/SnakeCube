@@ -78,19 +78,22 @@
   <ItemGroup>
     <ProjectCapability Include="VisualMicro" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="main.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\CubeModel\Cell.h" />
+    <ClInclude Include="libraries\CubeModel\Cube.h" />
+    <ClInclude Include="libraries\CubeModel\Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libraries\CubeModel\Cell.cpp" />
+    <ClCompile Include="libraries\CubeModel\Cube.cpp" />
+    <ClCompile Include="libraries\CubeModel\Vector.cpp" />
+  </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="NeoCube.ino">
-      <FileType>CppCode</FileType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="__vm\.snake-cube.vsarduino.h" />
-    <ClInclude Include="__vm\.SnakeCube.vsarduino.h" />
-    <ClInclude Include="__vm\.NeoCube.vsarduino.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
