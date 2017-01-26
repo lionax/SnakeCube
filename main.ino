@@ -10,28 +10,17 @@
  * Author:	Lionax
 */
 
-#include <Wire.h>
-#include "Compass.h"
-#include "Gyro.h"
-#include "Accelero.h"
+#include "libraries/Sensors/Compass.h"
+#include "libraries/Sensors/Gyro.h"
+#include "libraries/Sensors/Accelero.h"
+
 #include <TimerOne.h>
-#include <MPU9250.h>
-#include <I2Cdev.h>
 
 #include <Adafruit_NeoPixel.h>
 #include <gamma.h>
 #include <Adafruit_NeoMatrix.h>
 #include <gfxfont.h>
 #include <Adafruit_GFX.h>
-
-#define del 100
-#define sample_num_mdate  5000
-
-MPU9250 accelgyro;
-I2Cdev   I2C_M;
-
-uint8_t buffer_m[6];
-
 
 void setup() {
 	// Setup Loop-Timer

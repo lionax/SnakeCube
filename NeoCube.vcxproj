@@ -88,6 +88,8 @@
     <ClInclude Include="libraries\Sensors\Accelero.h" />
     <ClInclude Include="libraries\Sensors\Compass.h" />
     <ClInclude Include="libraries\Sensors\Gyro.h" />
+    <ClInclude Include="libraries\Sensors\Sensor.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="libraries\CubeModel\Cell.cpp" />
@@ -96,6 +98,9 @@
     <ClCompile Include="libraries\Sensors\Accelero.cpp" />
     <ClCompile Include="libraries\Sensors\Compass.cpp" />
     <ClCompile Include="libraries\Sensors\Gyro.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NeoCube.rc" />
   </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
