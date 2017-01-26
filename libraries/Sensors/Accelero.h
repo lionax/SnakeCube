@@ -9,6 +9,10 @@
 	#include "WProgram.h"
 #endif
 
+#include "Sensor.h"
+
+void getAccel_Data(void);
+
 
 #endif
 

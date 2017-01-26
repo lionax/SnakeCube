@@ -9,6 +9,10 @@
 	#include "WProgram.h"
 #endif
 
+#include "Sensor.h"
+
+void getGyro_Data(void);
+
 
 #endif
 
