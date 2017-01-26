@@ -9,7 +9,7 @@
  * Created:	11/17/2016 4:26:13 PM
  * Author:	Lionax
 */
-
+#include <Wire.h>
 #include "libraries/Sensors/Compass.h"
 #include "libraries/Sensors/Gyro.h"
 #include "libraries/Sensors/Accelero.h"
