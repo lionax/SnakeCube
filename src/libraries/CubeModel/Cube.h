@@ -20,16 +20,24 @@ typedef struct _neighbours {
 	byte free : 4; // not in use right now
 } neighbours;
 
+/**
+ * @Singleton
+ */
 class Cube
 {
-private:
-	Cell _cube[6][8][8];
-	neighbours _neighbours_table[6];
-
 public:
+	Cube(Cube const&) = delete;
+	void operator=(Cube const&) = delete;
+	static Cube& getInstance();
+	void clear();
+	void clear(byte page);
 	Vector * getVector(byte square, byte row, byte column);
 	Cell * getCell(byte square, byte row, byte column);
 	Cell * getCell(Vector vector);
+private:
+	Cell _cube[6][8][8];
+	neighbours _neighbours_table[6];
+	Cube() {}
 };
 
 #endif
